@@ -10,7 +10,7 @@ import com.hrms.utils.ConfigsReader;
 
 public class LoginTest extends CommonMethods {
 
-	@Test
+	@Test(groups="smoke")
 	public void adminLogin() {
 
 		sendText(login.username, ConfigsReader.getProperty("username"));
@@ -25,7 +25,7 @@ public class LoginTest extends CommonMethods {
 
 	}
 
-	@Test
+	@Test(groups="regression")
 	public void invalidPasswordLogin() {
 
 		sendText(login.username, ConfigsReader.getProperty("username"));
