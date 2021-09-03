@@ -2,38 +2,38 @@
 <testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-22T15:11:31 PDT" name="Suite" finished-at="2021-08-22T15:12:00 PDT" duration-ms="29468">
+  <suite started-at="2021-08-24T22:49:53 PDT" name="Suite" finished-at="2021-08-24T22:50:22 PDT" duration-ms="29322">
     <groups>
     </groups>
-    <test started-at="2021-08-22T15:11:31 PDT" name="Test" finished-at="2021-08-22T15:12:00 PDT" duration-ms="29468">
+    <test started-at="2021-08-24T22:49:53 PDT" name="Test" finished-at="2021-08-24T22:50:22 PDT" duration-ms="29322">
       <class name="com.hrms.testCases.HWTest">
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.hrms.testCases.HWTest@2f7298b]" started-at="2021-08-22T15:11:31 PDT" name="generateReport" finished-at="2021-08-22T15:11:31 PDT" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.hrms.testCases.HWTest@68999068]" started-at="2021-08-24T22:49:53 PDT" name="generateReport" finished-at="2021-08-24T22:49:53 PDT" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testCases.HWTest@2f7298b]" started-at="2021-08-22T15:11:31 PDT" name="setUp" finished-at="2021-08-22T15:11:35 PDT" duration-ms="3940" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testCases.HWTest@68999068]" started-at="2021-08-24T22:49:53 PDT" name="setUp" finished-at="2021-08-24T22:49:57 PDT" duration-ms="3736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginCredentials()[pri:0, instance:com.hrms.testCases.HWTest@2f7298b]" started-at="2021-08-22T15:11:35 PDT" name="loginCredentials" finished-at="2021-08-22T15:11:52 PDT" duration-ms="17437" status="PASS">
+        <test-method signature="loginCredentials()[pri:0, instance:com.hrms.testCases.HWTest@68999068]" started-at="2021-08-24T22:49:57 PDT" name="loginCredentials" finished-at="2021-08-24T22:50:15 PDT" duration-ms="17538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testCases.HWTest@2f7298b]" started-at="2021-08-22T15:11:52 PDT" name="tearDown" finished-at="2021-08-22T15:11:53 PDT" duration-ms="762" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testCases.HWTest@68999068]" started-at="2021-08-24T22:50:15 PDT" name="tearDown" finished-at="2021-08-24T22:50:16 PDT" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="writeReport()[pri:0, instance:com.hrms.testCases.HWTest@2f7298b]" started-at="2021-08-22T15:11:59 PDT" name="writeReport" finished-at="2021-08-22T15:12:00 PDT" duration-ms="1691" status="PASS">
+        <test-method is-config="true" signature="writeReport()[pri:0, instance:com.hrms.testCases.HWTest@68999068]" started-at="2021-08-24T22:50:22 PDT" name="writeReport" finished-at="2021-08-24T22:50:22 PDT" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReport -->
       </class> <!-- com.hrms.testCases.HWTest -->
       <class name="com.hrms.testCases.AddEmployeeHW">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testCases.AddEmployeeHW@188715b5]" started-at="2021-08-22T15:11:53 PDT" name="setUp" finished-at="2021-08-22T15:11:56 PDT" duration-ms="2674" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testCases.AddEmployeeHW@1ea9f6af]" started-at="2021-08-24T22:50:16 PDT" name="setUp" finished-at="2021-08-24T22:50:18 PDT" duration-ms="2852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:1, instance:com.hrms.testCases.AddEmployeeHW@188715b5]" started-at="2021-08-22T15:11:56 PDT" name="login" finished-at="2021-08-22T15:11:58 PDT" duration-ms="1944" status="FAIL">
+        <test-method signature="login()[pri:1, instance:com.hrms.testCases.AddEmployeeHW@1ea9f6af]" started-at="2021-08-24T22:50:18 PDT" name="login" finished-at="2021-08-24T22:50:20 PDT" duration-ms="1946" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[login failed expected [true] but found [false]]]>
@@ -78,7 +78,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testCases.AddEmployeeHW@188715b5]" started-at="2021-08-22T15:11:58 PDT" name="tearDown" finished-at="2021-08-22T15:11:59 PDT" duration-ms="719" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testCases.AddEmployeeHW@1ea9f6af]" started-at="2021-08-24T22:50:21 PDT" name="tearDown" finished-at="2021-08-24T22:50:22 PDT" duration-ms="717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

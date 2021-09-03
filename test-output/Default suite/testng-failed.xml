@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hrms.testCases.HW">
+      <class name="com.hrms.testCases.LoginTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="addEmployee"/>
-          <include name="login"/>
           <include name="generateReport"/>
+          <include name="invalidPasswordLogin"/>
           <include name="writeReport"/>
+          <include name="emptyUsernameLogin"/>
         </methods>
-      </class> <!-- com.hrms.testCases.HW -->
+      </class> <!-- com.hrms.testCases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
